@@ -14,6 +14,8 @@ if __name__ == "__main__":
 
     # Task 3: generate np arrays x and y that go from 0 to 1 in itot and
     # jtot steps.
+    x = np.linspace(0, 1, itot)
+    y = np.linspace(0, 1, jtot)
 
     # Task 4: generate a 2D np array a with random numbers
 
@@ -22,5 +24,4 @@ if __name__ == "__main__":
     # Task 6: calculate the mean of the array a and print it to the screen.
 
     # Task 7: calculate the variance of the array a and print it to the screen.
-
 
