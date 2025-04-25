@@ -1,5 +1,5 @@
 def print_message():
-    print("Hello wrold!")
+    print("Hello world!")
 
 
 if __name__ == "__main__":
