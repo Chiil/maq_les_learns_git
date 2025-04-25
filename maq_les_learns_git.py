@@ -1,5 +1,5 @@
-def print_message(itot, jtot):
-    print("itot = " + str(itot) + ", jot = " + str(jtot))
+def print_message():
+    print("Hello wrold!")
 
 
 if __name__ == "__main__":
@@ -10,7 +10,7 @@ if __name__ == "__main__":
     # jtot = ...
 
     # Task 2: adjust the print message and show the itot and jtot input.
-    print_message(itot, jtot)
+    print_message()
 
     # Task 3: generate np arrays x and y that go from 0 to 1 in itot and
     # jtot steps.
