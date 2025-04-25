@@ -16,7 +16,9 @@ if __name__ == "__main__":
     print_message()
 
     # Task 3: generate np arrays x and y that go from 0 to 1 in itot and
-    # jtot steps.
+    # jtot steps.   
+    x = np.linspace(0, 1, itot)
+    y = np.linspace(0, 1, jtot)
 
     # Task 4: generate a 2D np array a with random numbers
     random_2d = np.random.random((itot,jtot))
@@ -33,5 +35,4 @@ if __name__ == "__main__":
 
     var_a = np.var(a)
     print(f"Variance of array: {var_a:.6f}")
-
 
