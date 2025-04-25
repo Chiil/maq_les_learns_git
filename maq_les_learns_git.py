@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print_message()
 
     # Task 3: generate np arrays x and y that go from 0 to 1 in itot and
-    # jtot steps.
+    # jtot steps.   
     x = np.linspace(0, 1, itot)
     y = np.linspace(0, 1, jtot)
 
