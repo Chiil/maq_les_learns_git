@@ -1,5 +1,5 @@
 def print_message(itot, jtot):
-    print("itot = " + str(itot) + ", jot = " + str(jtot))
+    print("itot = " + str(itot) + ", jtot = " + str(jtot))
 
 
 if __name__ == "__main__":
