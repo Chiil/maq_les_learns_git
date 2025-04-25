@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # jtot steps.
 
     # Task 4: generate a 2D np array a with random numbers
-
+    random_2d = np.random.random((itot,jtot))
     # Task 5: plot the array a with axes x and y using pcolormesh.
 
     # Task 6: calculate the mean of the array a and print it to the screen.
