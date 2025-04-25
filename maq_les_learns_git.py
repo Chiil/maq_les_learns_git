@@ -6,8 +6,8 @@ if __name__ == "__main__":
 
     # Task 1: take two integers from the command line
     # that will be the matrix arguments
-    # itot = ...
-    # jtot = ...
+    itot = input('Please input a "itot" integer:')
+    jtot = input('Please input a "jtot" integer:')
 
     # Task 2: adjust the print message and show the itot and jtot input.
     print_message()
