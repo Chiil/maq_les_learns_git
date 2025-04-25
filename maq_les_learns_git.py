@@ -1,8 +1,9 @@
 import numpy as np
 import sys
 
-def print_message():
+def print_message(itot, jtot):
     print("Hello world!")
+    print("itot = " + str(itot) + ", jtot = " + str(jtot))
 
 
 if __name__ == "__main__":
@@ -13,7 +14,7 @@ if __name__ == "__main__":
     jtot = input('Please input a "jtot" integer:')
 
     # Task 2: adjust the print message and show the itot and jtot input.
-    print_message()
+    print_message(itot, jtot)
 
     # Task 3: generate np arrays x and y that go from 0 to 1 in itot and
     # jtot steps.   
